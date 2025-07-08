@@ -1,4 +1,4 @@
-// µ¥ÀÌÅÍº£ÀÌ½º¿¡¼­ ¹ÝÈ¯ µÉ À¯Çü Á¤ÀÇ (data model)
+// ï¿½ï¿½ï¿½ï¿½ï¿½Íºï¿½ï¿½Ì½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ (data model)
 // This file contains type definitions for your data.
 // It describes the shape of the data, and what data type each property should accept.
 // For simplicity of teaching, we're manually defining these types.
@@ -86,4 +86,5 @@ export type InvoiceForm = {
   customer_id: string;
   amount: number;
   status: 'pending' | 'paid';
+  date: string;
 };
